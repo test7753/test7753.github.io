@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Template</title>
+	
+		<!-- Normalize.css v4.2.0 -->
+			<style>progress,sub,sup{vertical-align:baseline}button,hr,input{overflow:visible}html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0} figcaption, menu,article,aside,details,figure,footer,header,main,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block}audio:not([controls]){display:none;height:0} [hidden],template{display:none}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:bolder}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}figure{margin:1em 40px}hr{box-sizing:content-box;height:0}button,input,optgroup,select,textarea{font:inherit;margin:0}optgroup{font-weight:700}button,input{}button,select{text-transform:none}[type=submit], [type=reset],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:ButtonText dotted 1px}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}</style>
+
+		<!-- Start Style Head -->
+			<style>@font-face{font-family:'proxima_nova_rgbold';src:url(../fonts/proximanova-bold-webfont.eot);src:url(../fonts/proximanova-bold-webfont.eot?#iefix) format("embedded-opentype"),url(../fonts/proximanova-bold-webfont.woff2) format("woff2"),url(../fonts/proximanova-bold-webfont.woff) format("woff"),url(../fonts/proximanova-bold-webfont.ttf) format("truetype"),url(../fonts/proximanova-bold-webfont.svg#proxima_nova_rgbold) format("svg");font-weight:400;font-style:normal}@font-face{font-family:'proxima_novalight';src:url(../fonts/proximanova-light-webfont.eot);src:url(../fonts/proximanova-light-webfont.eot?#iefix) format("embedded-opentype"),url(../fonts/proximanova-light-webfont.woff2) format("woff2"),url(../fonts/proximanova-light-webfont.woff) format("woff"),url(../fonts/proximanova-light-webfont.ttf) format("truetype"),url(../fonts/proximanova-light-webfont.svg#proxima_novalight) format("svg");font-weight:400;font-style:normal}@font-face{font-family:'proxima_novasemibold';src:url(../fonts/proximanova-semibold-webfont.eot);src:url(../fonts/proximanova-semibold-webfont.eot?#iefix) format("embedded-opentype"),url(../fonts/proximanova-semibold-webfont.woff2) format("woff2"),url(../fonts/proximanova-semibold-webfont.woff) format("woff"),url(../fonts/proximanova-semibold-webfont.ttf) format("truetype"),url(../fonts/proximanova-semibold-webfont.svg#proxima_novasemibold) format("svg");font-weight:400;font-style:normal}.hed__menu:after{content:"";display:block;clear:both}.wrapper{max-width:1600px;margin-left:auto;margin-right:auto;position:relative}.wrapper:after{content:" ";display:block;clear:both}body{font-family:"proxima_novalight","Helvetica Neue","Helvetica","Roboto","Arial",sans-serif;font-size:1.125em;overflow-x:hidden;background-color:#1B1B1B}ul{list-style:none;margin:0;padding:0}li{margin:0;padding:0}.left{float:left}.right{float:right}a{text-decoration:none}.hed__menu:after{content:"";display:block;clear:both}.walidate{display:none}.navicon_block{display:none;position:absolute;right:100px;top:-webkit-calc(50% - 9px);top:calc(50% - 9px);height:25px;cursor:pointer}.navicon,.navicon:after,.navicon__active:after,.navicon:before,.navicon__active:before,.navicon__active{-webkit-transition:.1s;transition:.1s;width:30px;height:5px;background:#fff;position:relative;-webkit-transform:translateY(10px);-ms-transform:translateY(10px);transform:translateY(10px)}.navicon:after,.navicon__active:after{content:"";display:block;-webkit-transform:none;-ms-transform:none;transform:none;position:absolute;top:10px}.navicon:before,.navicon__active:before{content:"";display:block;-webkit-transform:none;-ms-transform:none;transform:none;position:absolute;bottom:10px}.navicon__active{-webkit-transition:.1s;transition:.1s;-webkit-transform:translateY(10px) rotate(-45deg);-ms-transform:translateY(10px) rotate(-45deg);transform:translateY(10px) rotate(-45deg)}.navicon__active:after{display:none}.navicon__active:before{bottom:0;-webkit-transform:rotate(90deg);-ms-transform:rotate(90deg);transform:rotate(90deg)}.hed{height:100vh;max-height:800px;position:relative}.hed:before{content:"";position:absolute;top:0;left:0;width:100%;height:100%;background:rgba(33,28,28,0.8);display:none;z-index:1}.hed__slide_one,.hed__slide_two{position:absolute;top:0;left:0;width:100%;height:100%;background:url(img/Layer-16-min.jpg) no-repeat center center;background-size:cover;z-index:0}.hed__slide_two{background:url(img/Layer-16f-min.jpg) no-repeat center center;background-size:cover;display:none}.hed__wrapper{height:100%;z-index:2}.hed__menu{padding-top:10px;position:relative}.hed__logo{width:15.25424%;float:left;margin-right:1.69492%;margin-left:30px}.hed__nav{display:block;width:74.57627%;float:right;margin-right:0}.hed__nav_hidden{display:none;position:absolute;right:10px;top:60px;background:rgba(33,28,28,0.8);text-align:center;z-index:4;width:49.15254%;float:left;margin-right:1.69492%}.hed__nav_hidden:after{content:"";display:block;position:absolute;top:-20px;right:95px;border:10px solid transparent;border-bottom-color:rgba(33,28,28,0.8)}.hed__item{float:right;margin-right:10px}.hed__link{display:inline-block;padding:20px;text-transform:uppercase;font-family:"proxima_novasemibold","Helvetica Neue","Helvetica","Roboto","Arial",sans-serif;font-size:.875em;color:#fff}.hed__link:hover{color:#e94142}.hed__link:focus{color:#e94142}.hed__text-wrapp{position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}.hed__text{font-size:3.125em;color:#fff;letter-spacing:35px;font-weight:400;text-align:center;margin-bottom:0}.hed__text2{margin-top:18px;font-size:1.5625em;font-family:"proxima_nova_rgbold","Helvetica Neue","Helvetica","Roboto","Arial",sans-serif;color:#e94142;text-align:center;font-weight:500;letter-spacing:10px;text-transform:uppercase}.hed__down{display:block;-webkit-transition:.6s;transition:.6s;position:absolute;bottom:60px;left:-webkit-calc(50% - 25px);left:calc(50% - 25px);width:50px;height:50px;border-right:2px solid rgba(119,119,119,0.5);border-bottom:2px solid rgba(119,119,119,0.5);-webkit-transform:rotate(45deg);-ms-transform:rotate(45deg);transform:rotate(45deg);cursor:pointer;outline:none}.hed__down:hover{border-right-color:#fff;border-bottom-color:#fff;-webkit-transition:.2s;transition:.2s}.hed__down:focus{border-right-color:#fff;border-bottom-color:#fff;-webkit-transition:.2s;transition:.2s}@media (max-width: 768px){.navicon_block{display:block}.hed__nav{display:none}.hed__item{float:none;margin:0}}@media (max-width: 640px){.hed__text{font-size:1.5625em}}@media (max-width: 480px){.navicon_block{right:38px}.hed:before{display:block}.hed__logo{width:23.72881%;float:left;margin-right:1.69492%}.hed__text{font-size:1.25em;letter-spacing:20px}}@media (max-width: 320px){.hed__text{font-size:1.125em;letter-spacing:19px;margin-left:11px}}@media all and (max-height: 412px){.hed__text{font-size:1.5625em}}</style>
+
+		<!-- Start Load CSS -->
+			<link rel="stylesheet" href="style/main.css">
+
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/es5-shim/4.5.9/es5-shim.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+
+	<header class="hed">
+		<div class="hed__slide_one"></div>
+		<div class="hed__slide_two"></div>
+		<div class="hed__wrapper wrapper">
+			<div class="hed__menu">
+				<a href="/"><img src="img/logo.svg" alt="ICNDY" class="hed__logo"></a>
+				<ul class="hed__nav">
+					<li class="hed__item"><a href="#" class="hed__link">news</a></li>
+					<li class="hed__item"><a href="#" class="hed__link">sale</a></li>
+					<li class="hed__item"><a href="#" class="hed__link">brands</a></li>
+					<li class="hed__item"><a href="#" class="hed__link">womens</a></li>
+					<li class="hed__item"><a href="#" class="hed__link">mens</a></li>
+				</ul>
+				<div class="hed__nav-hidden">
+					<ul class="hed__nav_hidden">
+						<li class="hed__item"><a href="#" class="hed__link">mens</a></li>
+						<li class="hed__item"><a href="#" class="hed__link">womens</a></li>
+						<li class="hed__item"><a href="#" class="hed__link">brands</a></li>
+						<li class="hed__item"><a href="#" class="hed__link">sale</a></li>
+						<li class="hed__item"><a href="#" class="hed__link">news</a></li>
+					</ul>
+				</div>
+				<div class="navicon_block">
+					<div class="navicon"></div>
+				</div>
+			</div>
+
+			<div class="hed__text-wrapp">
+				<h1 class="hed__text">STÜSSY2014</h1>
+				<h2 class="hed__text2">shop now</h2>
+			</div>
+
+			<a href="#l-shop__anchor" class="hed__down"></a>
+		</div>
+	</header>
+
+	<!-- Start SHOPS -->
+		<section class="shops" id="l-shop__anchor">
+			<div class="wrapper">
+				<h2 class="walidate">Shop</h2>
+
+				<div class="shops__gourmet gourmet l-shop">
+					<a href="#" class="l-shop__link"></a>
+					<img src="img/Layer-22-min.jpg" alt="Alt" class="gourmet__img l-shop__img">
+					<img src="img/Layer-33.png" alt="Alt" class="gourmet__logo l-shop__logo">
+					<h3 class="gourmet__text l-shop__text">shop gourmet</h3>
+				</div>
+
+				<div class="shops__carhartt carhartt l-shop">
+					<a href="#" class="l-shop__link carhartt__link"></a>
+					<img src="img/Layer-21-min.jpg" alt="Alt" class="carhartt__img l-shop__img">
+					<img src="img/Layer-23.png" alt="Alt" class="carhartt__logo l-shop__logo">
+					<h3 class="carhartt__text l-shop__text">shop<br> carhartt</h3>
+				</div>
+
+				<div class="shops__adidas adidas l-shop">
+					<a href="#" class="l-shop__link adidas__link"></a>
+					<img src="img/Layer-25-min.jpg" alt="Alt" class="adidas__img l-shop__img">
+					<img src="img/Layer-24.png" alt="Alt" class="adidas__logo l-shop__logo">
+					<h3 class="adidas__text l-shop__text">shop<br> adidas</h3>
+				</div>
+
+				<div class="shops__deep deep l-shop">
+					<a href="#" class="l-shop__link"></a>
+					<img src="img/Layer-31-min.jpg" alt="Alt" class="deep__img l-shop__img">
+					<img src="img/Layer-30.png" alt="Alt" class="deep__logo l-shop__logo">
+					<h3 class="deep__text l-shop__text">10deep<br> sale</h3>
+				</div>
+
+				<div class="shops__palace palace l-shop">
+					<a href="#" class="l-shop__link"></a>
+					<img src="img/Layer-29-min.jpg" alt="Alt" class="palace__img l-shop__img">
+					<img src="img/Layer-28.png" alt="Alt" class="palace__logo l-shop__logo">
+					<h3 class="palace__text l-shop__text">palace<br> a/w 2014</h3>
+				</div>
+
+				<div class="shops__nike nike l-shop">
+					<a href="#" class="l-shop__link"></a>
+					<img src="img/Layer-27-min.jpg" alt="Alt" class="nike__img l-shop__img">
+					<img src="img/Layer-26.png" alt="Alt" class="nike__logo l-shop__logo">
+					<h3 class="nike__text l-shop__text">tech pack</h3>
+				</div>
+
+
+			</div>
+		</section>
+	<!-- End SHOPS -->
+
+	<!-- Start gallery -->
+		<section class="gallery">
+			<div class="gallery__wrapper">
+				<div class="gallery__list">
+					<img src="img/Layer-8-min.jpg" alt="Alt" class="gallery__img"><img src="img/Layer-9-min.jpg" alt="Alt" class="gallery__img"><img src="img/Layer-10-min.jpg" alt="Alt" class="gallery__img"><img src="img/Layer-11-min.jpg" alt="Alt" class="gallery__img"><img src="img/Layer-12-min.jpg" alt="Alt" class="gallery__img"><img src="img/Layer-13-min.jpg" alt="Alt" class="gallery__img"><img src="img/Layer-14-min.jpg" alt="Alt" class="gallery__img"><img src="img/Layer-15-min.jpg" alt="Alt" class="gallery__img">
+					<div class="gallery__text-wrapp">
+						<h2 class="gallery__head" >#icndy on instagram</h2>
+						<p class="gallery__text">view hashtag</p>
+					</div>
+				</div>
+			</div>
+		</section>
+	<!-- End gallery -->
+
+	<!-- Start footer -->
+		<footer class="footer">
+			<div class="footer__wrapp wrapper">
+				<ul class="footer__copy">
+					<li class="footer__item">&copy;icndy2014</li>
+					<li class="footer__item"><a href="#" class="footer__link">privacy</a></li>
+					<li class="footer__item"><a href="#" class="footer__link">terms</a></li>
+					<li class="footer__item"><a href="#" class="footer__link">shop</a></li>
+					<li class="footer__item"><a href="#" class="footer__link">about</a></li>
+					<li class="footer__item"><a href="#" class="footer__link">contact</a></li>
+				</ul>
+				<ul class="footer__social">
+					<li class="footer__icon"><a href="#" class="footer__link"><img src="img/in.svg" class="footer__img" alt="Alt"></a></li>
+					<li class="footer__icon"><a href="#" class="footer__link"><img src="img/fs.svg" class="footer__img" alt="Alt"></a></li>
+					<li class="footer__icon"><a href="#" class="footer__link"><img src="img/tw.svg" class="footer__img" alt="Alt"></a></li>
+				</ul>
+			</div>
+		</footer>
+	<!-- End footer -->
+
+
+
+	<!-- Load Scripts Start -->
+		<script src="script/lib/jquery.js"></script>
+		<!-- <script src="script/common.js"></script> -->
+		<script src="script/main.js"></script>
+	<!-- Load Scripts End -->
+	</body>
+</html>
